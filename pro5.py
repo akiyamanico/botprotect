@@ -27,19 +27,19 @@ msg_dict1 = {}
 
 #======Login Via Email Bagi Kalian Yg gk tau apa itu Token===================
 
-dollypk = LINE('fathanhps@gmail.com','fathan014')
+dollypk = LINE('')
 dollypk.log("Auth Token : " + str(dollypk.authToken))
 
-pk = LINE('yukinamizatomac@gmail.com','Sahasrara123')
+pk = LINE('')
 pk.log("Auth Token : " + str(pk.authToken))
 
-pk2 = LINE('nurrachmadhania@gmail.com','anakcangtip7')
+pk2 = LINE('')
 pk2.log("Auth Token : " + str(pk2.authToken))
 
-pk3 = LINE('dhoceew@gmail.com','dhoceew429nq58')
+pk3 = LINE('')
 pk3.log("Auth Token : " + str(pk3.authToken))
 
-pkjs = LINE('akiyamanico2@outlook.com','Sahasrara123')
+pkjs = LINE('')
 pkjs.log("Auth Token : " + str(pkjs.authToken))
 
 poll = OEPoll(dollypk)
