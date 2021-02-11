@@ -27,44 +27,24 @@ msg_dict1 = {}
 
 #======Login Via Email Bagi Kalian Yg gk tau apa itu Token===================
 
-dollypk = LINE("")
+dollypk = LINE('fathanhps@gmail.com','fathan014')
 dollypk.log("Auth Token : " + str(dollypk.authToken))
 
-pk = LINE("")
+pk = LINE('yukinamizatomac@gmail.com','Sahasrara123')
 pk.log("Auth Token : " + str(pk.authToken))
 
-pk2 = LINE("")
+pk2 = LINE('nurrachmadhania@gmail.com','anakcangtip7')
 pk2.log("Auth Token : " + str(pk2.authToken))
 
-pk3 = LINE("")
+pk3 = LINE('dhoceew@gmail.com','dhoceew429nq58')
 pk3.log("Auth Token : " + str(pk3.authToken))
 
-pkjs = LINE("")
+pkjs = LINE('akiyamanico2@outlook.com','Sahasrara123')
 pkjs.log("Auth Token : " + str(pkjs.authToken))
 
 poll = OEPoll(dollypk)
 call = dollypk
-print ("LOGIN READY ")
-print ("PROSES")
-print ("︻╦̵̵͇̿̿̿̿╤─PANTEK ᵏⁱˡˡᵉʳ ")
-print ("======1%\n=======50%\n=========100%")
-print (" ᴛʜᴀɴᴋs ᴛᴏ ᴀʟʟᴀʜ sᴡᴛ ")
-print (" ᴛʜᴀɴᴋs ᴛᴏ ᴘʏ³ ")
-print (" ᴋᴇᴇᴘ sᴛᴀʏ ᴀɴᴅ ʀᴜʟʟᴇs ")
-print ("\n\
-= = = = = = = = = = = =        =====               === \n\
-= = = = = = = = = = = = =      =====            === \n\
-=======          ====== =      =====         === \n\
-=======           ====== =     =====      ===\n\
-=======           =======      =====    === \n\
-=======           ======       ===== ===\n\
-=================              ===== ===\n\
-================               =====     ===\n\
-=======                        =====      ===  \n\
-=======                        =====         ===\n\
-=======                        =====           ===\n\
-=======                        =====             === \n")
-print("LOGIN SUKSES")
+print ("DONE")
 #==========mid kalian ya dan mid induk nya================================
 creator = ["uba9a8e3ffb48ee5187b1ac4835339562"]
 owner = ["uba9a8e3ffb48ee5187b1ac4835339562"]
@@ -74,11 +54,14 @@ staff = ["uba9a8e3ffb48ee5187b1ac4835339562"]
 mid = dollypk.getProfile().mid
 Amid = pk.getProfile().mid
 Bmid = pk2.getProfile().mid
-Cmid = pk3.getProfile().mid
+#Cmid = pk3.getProfile().mid
 Zmid = pkjs.getProfile().mid
-KAC = [dollypk,pk,pk2,pk3]
-ABC = [pk,pk2,pk3]
-Bots = [mid,Amid,Bmid,Cmid,Zmid]
+#KAC = [dollypk,pk,pk2,pk3]
+#ABC = [pk,pk2,pk3]
+KAC = [dollypk,pk,pk2]
+ABC = [pk,pk2]
+#Bots = [mid,Amid,Bmid,Cmid,Zmid]
+Bots = [mid,Amid,Bmid,Zmid]
 Pkbot = admin + staff
 
 protectqr = []
@@ -92,7 +75,7 @@ welcome = []
 #==============Respon Bot====================
 responsename1 = pk.getProfile().displayName
 responsename2 = pk2.getProfile().displayName
-responsename3 = pk3.getProfile().displayName
+#responsename3 = pk3.getProfile().displayName
 
 settings = {
     "Picture":False,
@@ -142,7 +125,7 @@ wait = {
     "Talkblacklist":{},
     "Talkwblacklist":False,
     "Talkdblacklist":False,
-    "talkban":True,
+    "talkban":False,
     "contact":False,
     'autoJoin':True,
     'autoAdd':True,
@@ -154,11 +137,11 @@ wait = {
     "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
-    "mention":"Sider keluar dong :(",
-    "Respontag":"Permisi? Ada apa?",
+    "mention":"Hallo Kak, Main Yuk",
+    "Respontag":"Hai!",
     "welcome":"Selamat datang semoga betah dan jangan lupa cek note",
-    "comment":"Sudah Terlike",
-    "message":"Hallo! Terima kasih sudah menambahkan saya sebagai teman!",
+    "comment":"Like like & like by 𝙋.𝙆°𝘽𝙊𝙏𝙎",
+    "message":"Terima kasih! Semoga kita bisa berteman!"
     }
 
 read = {
@@ -310,7 +293,7 @@ def sendMention(to, mid, firstmessage):
         timeNow = datetime.now(tz=tz)
         eltime = time.time() - mulai
         bot = runtime(eltime)
-        text += mention+"Halo!"+bot
+        text += mention+"🕙 Jam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\n▪ Group : "+str(len(gid))+"\n▪ Teman : "+str(len(teman))+"\n▪ Expired : In "+hari+"\n▪ Version : Lupa Anjir\n▪Creator: 𝐀𝐧𝐭𝐚𝐫𝐞𝐬[𝐃𝐨𝐥𝐥𝐲]\n▪Team: 𝙋.𝙆°𝘽𝙊𝙏𝙎\n\n        Supported by\n▪Aki Devan\n▪ELFOX\n▪Ben\n▪IGO\n▪𝐁𝐓𝐑 𝐟𝐚𝐦𝐢𝐥𝐲 Ibal & Friend\n▪𝐌𝐨𝐫𝐩𝐡𝐢𝐧𝐞𝐁𝐨𝐭𝐬\n▪°™ᴀʟɪᴘ•GRIND KILLER\n▪☆𝕱𝖆𝖒𝖟 𝖐𝖊𝖇𝖔𝖙𝖆𝖓☆ \n\n        𝙋.𝙆°𝘽𝙊𝙏𝙎 2020\n\n▪ Tanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\n▪ Runtime : \n • "+bot
         dollypk.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         dollypk.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -326,8 +309,7 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "     Botnya J! Original SC By : Dolly\n" +\
-                  "▪" + key + "Me\n" + \
+    helpMessage = "▪" + key + "Me\n" + \
                   "▪" + key + "Status\n" + \
                   "▪" + key + "About\n" + \
                   "▪" + key + "Restart\n" + \
@@ -373,16 +355,12 @@ def help():
                   "▪" + key + "Listbot\n" + \
                   "▪" + key + "Listadmin\n" + \
                   "▪" + key + "Listprotect\n" + \
-                  "▪Bot Kalian error pc admin\n" +\
-                  "▪" + key + "  http://line.me/ti/p/~babyvio.\n\n" +\
-                  "          Botnya J! Original SC By : Dolly"
     return helpMessage
 
 def helppro():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2 = "     Botnya J! Original SC By : Dolly" +\
-                  "▪" + key + "      ☆HELP Protect☆\n" + \
+    helpMessage2 ="▪" + key + "      ☆HELP Protect☆\n" + \
                   "▪" + key + "pk in/out\n" + \
                   "▪" + key + "Byeme\n" + \
                   "▪" + key + "ajs join/bye\n" + \
@@ -397,17 +375,13 @@ def helppro():
                   "▪" + key + "Ghost「on/off」\n" + \
                   "▪" + key + "pkKick「@」\n" + \
                   "▪" + key + "Listprotect\n" + \
-                  "▪Bot Kalian error pc admin\n" +\
-                  "▪" + key + "  http://line.me/ti/p/~babyvio.\n\n" +\
-                  "          Botnya J! Original SC By : Dolly"
                   
     return helpMessage2
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "     Botnya J! Original SC By : Dolly\n" +\
-                  "▪" + key + "Blc\n" + \
+    helpMessage1 ="▪" + key + "Blc\n" + \
                   "▪" + key + "Ban:on\n" + \
                   "▪" + key + "Unban:on\n" + \
                   "▪" + key + "Ban\n" + \
@@ -437,8 +411,6 @@ def helpbot():
                   "▪" + key + "pkup\n" + \
                   "▪" + key + "pk2up\n" + \
                   "▪" + key + "pk3up\n" + \
-                  "▪" + key + "  http://line.me/ti/p/~babyvio.\n\n" +\
-                  "          Botnya J! Original SC By : Dolly"
                   
     return helpMessage1
 
@@ -1451,7 +1423,7 @@ def bot(op):
                                pesan = text.replace(sep[0] + " ","")
                                saya = dollypk.getGroupIdsJoined()
                                for group in saya:
-                                   dollypk.sendMessage(group,"Unsend? Tag Aja\nAuto Broadcast By : Jay\n" + str(pesan))
+                                   dollypk.sendMessage(group,"ʙʀᴏᴀᴅᴄᴀꜱᴛ ʙʏ\n       𝙋.𝙆°𝘽𝙊𝙏𝙎\n" + str(pesan))
 
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
@@ -1822,7 +1794,7 @@ def bot(op):
                                 except:
                                     pass
                                 
-                        elif cmd == "jay ajs stay":
+                        elif cmd == "ajs stay":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -1832,7 +1804,7 @@ def bot(op):
                                 except:
                                     pass
     
-                        elif cmd == "jay in":
+                        elif cmd == "pk in":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = dollypk.getGroup(msg.to)
@@ -1851,17 +1823,15 @@ def bot(op):
                                 pk2.sendMessage(msg.to,"Bot2 Stay")
                                 pk3.sendMessage(msg.to," Bot3 Stay")
                                 pkjs.sendMessage(msg.to,"ajs Stay")
-                                dollypk.sendMessage(msg.to,"All Done!")
+                                dollypk.sendMessage(msg.to,"Stay sambil anu")
 
-                        elif cmd == "jay out":
+                        elif cmd == "pk out":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = dollypk.getGroup(msg.to)
-                                pk.sendMessage(msg.to, "Istirahat dulu! Kalau ada apa-apa pc aja adminnya "+str(G.name))
-                                pk.sendContact(to, "uba9a8e3ffb48ee5187b1ac4835339562")
-                                pk.sendContact(to, "u4504221d409f5f2d7e52f121a0b1e088")
-                                pk.sendContact(to, "u164e683895e10c32b118d6a84a994c90")
-                                pk.sendContact(to, "u3ef6acfd3949c7e7b16c8b3847c3f5b8")
+                                pk.sendMessage(msg.to, "Pamit Dulu penting Chat Admin\n "+str(G.name))
+                                pk.sendContact(to, "u3a4cc9a5d0da4077d7dc6cd4f405517c")
+                                pk.sendContact(to, "ue0730b00558542cf28a9256e57b308cc")
                                 pk.leaveGroup(msg.to)
                                 pk2.leaveGroup(msg.to)
                                 pk3.leaveGroup(msg.to)
@@ -1870,7 +1840,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = dollypk.getGroup(msg.to)
-                                dollypk.sendMessage(msg.to, "Dadah"+str(G.name))
+                                dollypk.sendMessage(msg.to, "Bye bye fams "+str(G.name))
                                 dollypk.leaveGroup(msg.to)
 
                         elif cmd.startswith("leave "):
@@ -1926,7 +1896,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 pk3.updateGroup(G)
 
-                        elif cmd == "jay ajs join":
+                        elif cmd == "ajs join":
                             if msg._from in admin:
                                 G = dollypk.getGroup(msg.to)
                                 ginfo = dollypk.getGroup(msg.to)
@@ -1939,7 +1909,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 pkjs.updateGroup(G)
 
-                        elif cmd == "jay ajs bye":
+                        elif cmd == "ajs bye":
                             if msg._from in admin:
                                 G = dollypk.getGroup(msg.to)
                                 pkjs.leaveGroup(msg.to)
@@ -1956,15 +1926,8 @@ def bot(op):
                                 get_contact_time_start = time.time()
                                 get_contact = dollypk.getContact(mid)
                                 get_contact_time = time.time() - get_contact_time_start
-                                dollypk.sendMessage(msg.to, "Respon\n\n  ▪「 Get Profile」\n   %.10f\n ▪「Get Contact」\n   %.10f\n ▪「Get Group」\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
-
-                        elif text.lower() == 'speed':
-                        	if msg._from in admin:
-                                 start = time.time()
-                                 dollypk.sendMessage(to, "Wait")
-                                 elapsed_time = time.time() - start
-                                 dollypk.sendMessage(to,format(str(elapsed_time)))
-
+                                dollypk.sendMessage(msg.to, "▪𝐏.𝐊°ᴾʳᵒᵗᵉᶜᵗ \nRespon\n\n  ▪「 Get Profile」\n   %.10f\n ▪「Get Contact」\n   %.10f\n ▪「Get Group」\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
+                                 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -2773,11 +2736,11 @@ def bot(op):
                                
                         elif cmd == "pkrespon" or msg.text.lower == "respon":
                             if msg._from in admin:
-                               dollypk.sendMessage(to,"Hadir!")
-                               pk.sendMessage(to,"Hadir!")
-                               pk2.sendMessage(to,"Hadir!")
-                               pk3.sendMessage(to,"Hadir!")
-                               pkjs.sendMessage(to,"Hadir!")
+                               dollypk.sendMessage(to,"𝐰𝐞 𝐚𝐫𝐞 𝐡𝐞𝐫𝐞, 𝐚𝐧𝐝 𝐚𝐥𝐰𝐚𝐲𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐞𝐫𝐞")
+                               pk.sendMessage(to,"𝐰𝐞 𝐚𝐫𝐞 𝐡𝐞𝐫𝐞, 𝐚𝐧𝐝 𝐚𝐥𝐰𝐚𝐲𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐞𝐫𝐞")
+                               pk2.sendMessage(to,"𝐰𝐞 𝐚𝐫𝐞 𝐡𝐞𝐫𝐞, 𝐚𝐧𝐝 𝐚𝐥𝐰𝐚𝐲𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐞𝐫𝐞")
+                               pk3.sendMessage(to,"𝐰𝐞 𝐚𝐫𝐞 𝐡𝐞𝐫𝐞, 𝐚𝐧𝐝 𝐚𝐥𝐰𝐚𝐲𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐞𝐫𝐞")
+                               pkjs.sendMessage(to,"𝐰𝐞 𝐚𝐫𝐞 𝐡𝐞𝐫𝐞, 𝐚𝐧𝐝 𝐚𝐥𝐰𝐚𝐲𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐞𝐫𝐞")
                                
                         elif cmd == "promo" or msg.text.lower == "order":
                       	  if msg._from in admin:
